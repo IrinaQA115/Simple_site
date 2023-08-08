@@ -1,0 +1,151 @@
+body{
+font: 12pt Arial, Helvetica, sans-serif;
+margin: 0;
+}
+h1{
+font-size: 70px;
+color: blue;
+margin: 0px;
+}
+h2{
+margin-top: 0;
+text-align: center
+}
+h3{
+margin-top: 0;
+text-align: center
+}
+#header{
+background: #6BF2F2;
+padding: 15px;
+text-align: center;
+background-image: url(cats.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+#sidebar{
+float: left;
+width: 20%;
+padding: 5px;
+margin: 10px 10px 20px 5px;
+border: 1px solid green;
+}
+#sidebar b{
+text-decoration: none;
+background-color: #cfd1d0;
+color: black;
+padding: 14px;
+display: block
+}
+#sidebar b active{
+text-decoration: none;
+background-color: green;
+color: black;
+padding: 14px;
+display: block
+}
+#sidebar b:hover{
+background-color: grey;
+}
+#footer{
+background: grey;
+color: white;
+padding: 7px;
+clear: left;
+text-align: center
+}
+#content{
+padding: 5px;
+margin: 10px 5px 20px 25%;
+border: 1px solid green;
+}
+h4{
+text-align: center
+}
+img{
+display: block;
+width: 300px;
+margin-left: auto;
+margin-right: auto
+}
+img.cats{
+display: block;
+width: 50px;
+float:left;
+margin-top: 2px;
+margin-left:5px
+}
+#navbar li{
+display: inline-block;
+position: relative
+}
+#navbar{
+list-style: none;
+margin-left: auto;
+margin-right: auto;
+margin: 60px 0 5px 0;
+padding: 0;
+border: 2px solid #4287f5;
+border-radius: 20px 5px;
+width: 1200px;
+text-align: center;
+background-color: #048F8F
+}
+#navbar a{
+text-decoration: none;
+color: black;
+padding: 5px 10px;
+font-width: bold;
+display: inline-block;
+width: 200px
+}
+#navbar a: hover{
+background-color: #375f9e;
+border-radius: 20px 5px
+}
+#navbar ol{
+display: none;
+position: absolute;
+top: 100%
+}
+#navbar li:hover ol{
+display: block;
+background-color: #048F8F;
+}
+#navbar ol li{
+float: none
+}
+
+.menu{
+list-style: square;
+margin: 0;
+padding: 0 16px
+counter-reset: li
+}
+
+th, td{
+border: 1px solid black;
+}
+table {
+border-collapse: separate;
+width: 900px;
+border: 3px solid black;
+margin: 15px;
+}
+caption{
+caption-side: top;
+text-align: center;
+padding: 10px 0 0 0;
+font-size: 18px;
+color: green;
+border: 3px solid green;
+background-color: #A6E3E3;
+margin: 20px 0 5px 0;
+border-radius: 5px;
+}
+
+
+
+

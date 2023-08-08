@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div id="content">
+    <form action="#">
+        <fieldset>
+        <legend>Регистрация</legend>
+        <label for="name">Имя*</label>
+        <input id="name" placeholder="Иван" autofocus required>
+            <label for="surname">Фамилия*</label>
+        <input id="surname" placeholder="Иванов" required><br>
+        <label for="phone">Телефон</label>
+        <input id="phone" placeholder="+7 xxx xxx-xx-xx">
+             <label>Email*</label>
+            <input id="email" required pattern="\S+@[a-z]+.[a-z]+"><br>
+        <label for="gender">Пол</label>
+        <select id="gender">
+        <option value="female">Женский</option>
+        <option value="male">Мужской</option>
+            </select><br>
+            <label for="comments">Дополнительная информация</label>
+            <textarea id="comments"></textarea>
+            </fieldset>
+        <fieldset>
+            <legend>Цель регистрации</legend>
+            <label for="team">Дополнительная информация</label>
+            <input type="checkbox" id="team"><br>
+            <label for="stress">Поиск с целью покупки</label>
+            <input type="checkbox" id="stress"><br>
+            <label for="active">Сотрудничество</label>
+            <input type="checkbox" id="active"><br>
+            <label for="lider">Без цели</label>
+            <input type="checkbox" id="lider"><br>
+        </fieldset>
+        <input type="submit" value="Отправить">
+    </form>
+</div>
+</body>
+</html>

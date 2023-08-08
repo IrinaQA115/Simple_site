@@ -1,0 +1,85 @@
+body{
+font: 12pt Arial, Helvetica, sans-serif;
+margin: 0;
+}
+h1{
+font-size: 70px;
+color: blue;
+margin: 0px;
+}
+#header{
+background: #6BF2F2;
+padding: 20px;
+text-align: center;
+background-image: url(cats.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+img.cats{
+display: block;
+width: 50px;
+float:left;
+margin-top: 2px;
+margin-left:5px
+}
+#container{
+width: 100%;
+margin: 0 auto;
+padding: 10px;
+}
+#aside{
+float: right;
+color: black;
+text-font: 7pt
+width: 200px;
+padding: 10px;
+border: 1px solid green;
+margin: 20px;
+}
+
+#nav{
+float: left;
+width: 300px;
+padding: 10px;
+border: 1px solid green;
+margin: 20px;
+}
+#content{
+background-image: url(pussy.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+color: #580A98;
+text-align: center;
+padding: 10px;
+margin: 20px 30% 20px 30%;
+border: 1px solid green;
+}
+h3{
+margin-top: 0;
+text-align: center;
+color: #C53EF0;
+}
+<h4>{
+text-align: center;
+}
+<h6>{
+text-align: right;
+}
+#footer{
+text-align: center;
+background: grey;
+padding: 10px;
+}
+input {
+border: 2px solid green;
+border-radius: 5px;
+padding: 10px;
+margin: 10px;
+background-color: #A6E3E3;
+color: black;
+}
+input:focus{
+background-color: #A2FDEB;
+}
